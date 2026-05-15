@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nodocivico.app-mergeDebugResources-55:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tanner Miranda\\.gradle\\caches\\transforms-3\\73ea7fef0f21efee6126d5b4c164054c\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

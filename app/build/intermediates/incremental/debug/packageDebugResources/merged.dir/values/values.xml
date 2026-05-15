@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Alumbrado</item>
+        <item>Aseo</item>
+        <item>Seguridad</item>
+        <item>Servicios públicos</item>
+        <item>Vías</item>
+        <item>Espacios comunes</item>
+        <item>Ruido</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="notification_options">
+        <item>Activas</item>
+        <item>Silenciosas</item>
+        <item>Desactivadas</item>
+    </string-array>
+    <string-array name="priorities">
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+    <string-array name="statuses">
+        <item>Abierto</item>
+        <item>En proceso</item>
+        <item>Cerrado</item>
+        <item>Rechazado</item>
+    </string-array>
+    <string-array name="themes">
+        <item>Sistema</item>
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+    <color name="background">#EEF3FB</color>
+    <color name="border">#E2E8F0</color>
+    <color name="error">#DC2626</color>
+    <color name="info">#0891B2</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary">#2563EB</color>
+    <color name="primary_container">#DBEAFE</color>
+    <color name="primary_dark">#0F4BD8</color>
+    <color name="priority_high">#DC2626</color>
+    <color name="priority_low">#16A34A</color>
+    <color name="priority_medium">#F59E0B</color>
+    <color name="success">#16A34A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F8FAFC</color>
+    <color name="text_primary">#182230</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="transparent">#00000000</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="radius_lg">20dp</dimen>
+    <dimen name="radius_md">16dp</dimen>
+    <dimen name="radius_sm">12dp</dimen>
+    <dimen name="radius_xl">28dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <string name="app_name">Nodo Cívico</string>
+    <string name="btn_add_reminder">Agregar recordatorio</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_my_reports">Mis reportes</string>
+    <string name="btn_new_report">Nuevo reporte</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_retry">Reintentar</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_save_offline">Guardar offline</string>
+    <string name="btn_sync_now">Sincronizar ahora</string>
+    <string name="confirm_delete_msg">¿Estás seguro de que deseas eliminar este reporte? Esta acción no se puede deshacer.</string>
+    <string name="confirm_delete_title">Eliminar reporte</string>
+    <string name="confirm_logout_msg">¿Deseas cerrar tu sesión?</string>
+    <string name="confirm_logout_title">Cerrar sesión</string>
+    <string name="empty_reminders">No tienes recordatorios activos.</string>
+    <string name="empty_reports">No hay reportes aún.\nCrea el primero.</string>
+    <string name="error_generic">Ocurrió un error. Intenta de nuevo.</string>
+    <string name="error_no_connection">Sin conexión a internet</string>
+    <string name="error_sync">Error al sincronizar. Los datos se guardarán localmente.</string>
+    <string name="filter_all">Todos</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_report_description">Describe la incidencia con detalle…</string>
+    <string name="hint_report_location">Ubicación (ej: Calle 12 con Carrera 5)</string>
+    <string name="hint_report_title">Título del reporte</string>
+    <string name="hint_zone">Barrio o zona</string>
+    <string name="home_quick_access">Accesos rápidos</string>
+    <string name="home_recent">Reportes recientes</string>
+    <string name="home_summary">Resumen</string>
+    <string name="home_welcome">Bienvenido,</string>
+    <string name="label_category">Categoría</string>
+    <string name="label_priority">Prioridad</string>
+    <string name="label_status">Estado</string>
+    <string name="login_subtitle">Ingresa a tu comunidad</string>
+    <string name="nav_calendar">Recordatorios</string>
+    <string name="nav_create">Nuevo reporte</string>
+    <string name="nav_detail">Detalle del reporte</string>
+    <string name="nav_edit">Editar reporte</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_map">Zona</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_reports">Reportes</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_sync">Sync</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="splash_slogan">Reportes ciudadanos · Comunidad activa</string>
+    <string name="stat_closed">Cerrados</string>
+    <string name="stat_open">Abiertos</string>
+    <string name="stat_total">Reportes totales</string>
+    <string name="stat_unsynced">Sin sincronizar</string>
+    <string name="status_closed">Cerrado</string>
+    <string name="status_connected">Conectado</string>
+    <string name="status_in_progress">En proceso</string>
+    <string name="status_offline">Sin conexión — modo offline</string>
+    <string name="status_open">Abierto</string>
+    <string name="status_rejected">Rechazado</string>
+    <string name="sync_none">Todo sincronizado ✓</string>
+    <string name="sync_pending">%d cambios pendientes</string>
+    <string name="sync_success">Sincronización completada</string>
+    <style name="ShapeCircle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ShapeLarge" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="ShapeMedium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeSmall" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="Theme.NodoCivico" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+
+        
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+
+        
+        <item name="android:colorBackground">@color/background</item>
+
+        
+        <item name="colorError">@color/error</item>
+
+        
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeSmall</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeMedium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeLarge</item>
+    </style>
+    <style name="Theme.NodoCivico.Splash" parent="Theme.NodoCivico">
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nodocivico.app-mergeDebugResources-55:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Tanner Miranda\\.gradle\\caches\\transforms-3\\6138f6684c02a04f0fee6c636bd84a3c\\transformed\\material-1.11.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

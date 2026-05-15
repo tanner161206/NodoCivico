@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Alumbrado</item>
+        <item>Aseo</item>
+        <item>Seguridad</item>
+        <item>Servicios públicos</item>
+        <item>Vías</item>
+        <item>Espacios comunes</item>
+        <item>Ruido</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="priorities">
+        <item>Baja</item>
+        <item>Media</item>
+        <item>Alta</item>
+    </string-array>
+
+    <string-array name="statuses">
+        <item>Abierto</item>
+        <item>En proceso</item>
+        <item>Cerrado</item>
+        <item>Rechazado</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Sistema</item>
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+
+    <string-array name="notification_options">
+        <item>Activas</item>
+        <item>Silenciosas</item>
+        <item>Desactivadas</item>
+    </string-array>
+</resources>

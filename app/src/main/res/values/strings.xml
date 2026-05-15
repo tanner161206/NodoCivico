@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nodo Cívico</string>
+
+    <!-- Splash -->
+    <string name="splash_slogan">Reportes ciudadanos · Comunidad activa</string>
+
+    <!-- Auth -->
+    <string name="login_subtitle">Ingresa a tu comunidad</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre completo</string>
+    <string name="hint_zone">Barrio o zona</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_reports">Reportes</string>
+    <string name="nav_sync">Sync</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_map">Zona</string>
+    <string name="nav_calendar">Recordatorios</string>
+    <string name="nav_create">Nuevo reporte</string>
+    <string name="nav_edit">Editar reporte</string>
+    <string name="nav_detail">Detalle del reporte</string>
+
+    <!-- Home -->
+    <string name="home_welcome">Bienvenido,</string>
+    <string name="home_summary">Resumen</string>
+    <string name="home_quick_access">Accesos rápidos</string>
+    <string name="home_recent">Reportes recientes</string>
+
+    <!-- Stats -->
+    <string name="stat_total">Reportes totales</string>
+    <string name="stat_unsynced">Sin sincronizar</string>
+    <string name="stat_open">Abiertos</string>
+    <string name="stat_closed">Cerrados</string>
+
+    <!-- Buttons -->
+    <string name="btn_new_report">Nuevo reporte</string>
+    <string name="btn_my_reports">Mis reportes</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_save_offline">Guardar offline</string>
+    <string name="btn_sync_now">Sincronizar ahora</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_retry">Reintentar</string>
+    <string name="btn_add_reminder">Agregar recordatorio</string>
+
+    <!-- Report form -->
+    <string name="hint_report_title">Título del reporte</string>
+    <string name="hint_report_description">Describe la incidencia con detalle…</string>
+    <string name="hint_report_location">Ubicación (ej: Calle 12 con Carrera 5)</string>
+    <string name="label_category">Categoría</string>
+    <string name="label_priority">Prioridad</string>
+    <string name="label_status">Estado</string>
+
+    <!-- Statuses -->
+    <string name="status_connected">Conectado</string>
+    <string name="status_offline">Sin conexión — modo offline</string>
+    <string name="status_open">Abierto</string>
+    <string name="status_in_progress">En proceso</string>
+    <string name="status_closed">Cerrado</string>
+    <string name="status_rejected">Rechazado</string>
+
+    <!-- Filters -->
+    <string name="filter_all">Todos</string>
+
+    <!-- Empty / Error states -->
+    <string name="empty_reports">No hay reportes aún.\nCrea el primero.</string>
+    <string name="empty_reminders">No tienes recordatorios activos.</string>
+    <string name="error_generic">Ocurrió un error. Intenta de nuevo.</string>
+    <string name="error_no_connection">Sin conexión a internet</string>
+    <string name="error_sync">Error al sincronizar. Los datos se guardarán localmente.</string>
+
+    <!-- Sync -->
+    <string name="sync_success">Sincronización completada</string>
+    <string name="sync_pending">%d cambios pendientes</string>
+    <string name="sync_none">Todo sincronizado ✓</string>
+
+    <!-- Confirm dialogs -->
+    <string name="confirm_delete_title">Eliminar reporte</string>
+    <string name="confirm_delete_msg">¿Estás seguro de que deseas eliminar este reporte? Esta acción no se puede deshacer.</string>
+    <string name="confirm_logout_title">Cerrar sesión</string>
+    <string name="confirm_logout_msg">¿Deseas cerrar tu sesión?</string>
+</resources>
