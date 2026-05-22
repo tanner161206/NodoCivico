@@ -1,0 +1,465 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ad302f6a26cfbf8f3a8a7ce00f0a81f2\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f087a880f8d4286dd96084e69d23ad97\transformed\navigation-common-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\0156675b359dc24d56217fb91d61b13c\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6e4c925063ac405bf710bfe9bf68f831\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\dc25754c2cd37465d79bcee40131e3ac\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cb82de2f5243ded992f24bb07c3b1591\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3ecf687ed6a9aa66d76df5625c41cbce\transformed\navigation-fragment-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3066817ce7cd0ddcec2cf6696bf26566\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\963cb18ea04240e6cd185837f4e44f4a\transformed\navigation-ui-2.7.7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6138f6684c02a04f0fee6c636bd84a3c\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\206852b9eec49d39118246a0e59c7194\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\81983f6098248e70603103475c6543c0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\73ea7fef0f21efee6126d5b4c164054c\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\aa0b33aa687c9e2b61970975958c1fbd\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\58f095af501dfd0a7bcfb5c3f0b52057\transformed\recyclerview-1.3.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d0caf409220fc00d91c84b3684b726af\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\52fb88242d2c56d49371160a02c17f2a\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\036284d3a0b75c862575c8fb093f8b23\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bd341431421be92c8e1ff7a342339ee8\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\451504286cee4cb6f11c2fd214d8cf50\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ffc11575f4f581aa231044df10b639c7\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3a9408c4c15dc3b93f257c1ab486109a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cc8789824292a670f8a4e1fcbd34a9b0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\99ac018b277aadf906450b7fc4bf0116\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2c0af0f74d730627ae8b22b7abd4838f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\e76f6b22b6e74018e5da0b6b64b4729a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d78b1d62f26007d4ff769415e63e695e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6a5ea87efd4a8f2f142943cb0fd38c2d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3204da1b3037c49e060211a01f9be43b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\1e9a4f81a1a232c1cf9363d4bf86e987\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6643853fa794723fb5dcc9849c1e9e0a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5c292612888dfe77deea3abf3e7a191c\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f91f8b53de6d71759c98824e1e5c6027\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6581976094e05f1854095bca7849df81\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d808120f08a748569b5f037cbb814714\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f025b8ac6f8eaa9e13292dc5b2e1040d\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cd007e1ae3669ffa0199e06100f0ad90\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\c08bdf8c7e842d121b5461f898fc0684\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\e624644f7dd69ab6716918da0ed22c19\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\92650c1178659ed4c72d92c387460d79\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ec68271104b69fbf5cbad475260b0151\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\aac750bff44d3e598c23f7beddae701a\transformed\lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\9a786c1778c44da9b2a8b6de59d577c7\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3bfcd8d64fc9efe835374728c4952246\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f04fb21446428a59cf5f3293a9eebdba\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5a7f71e47ae8d44c5f11f8c54e01a851\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\1c89210ac8853cb0edb7880c4ea7349a\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f459325e84a79472b34a2fafb8cf3a63\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5884bad8c78f6a31d040c83ede8e8fe3\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\0dfb0e044e3746833eb42fb8f1e773c6\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\217eedbd331e12fecfc8188dce8a6083\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bb702bca058a6711d3712daaac69a135\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\92b6e5ecadd3ead02507eef33e7b399c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2bf42b562ea0f20158515a22b57011b9\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2caf3da66237a20edf0c9868ff3b75d9\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ce8b4aae6e4355a02157285cc280224f\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\83282183dcdc6a2320efdc8d17323e4e\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\32c7900fa951af0736d7396c9e555e96\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\03c67d1a78bed9daa46cc220c7e893ad\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\c25cb0bf565c83f949ec66b4acd41e07\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\fe77be199d4a6ce141d4a38b1fe59c37\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\18370bd0730e7f19baf9ab75e37ac30f\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bf3ff6429c0930e7149c33584c4b4d81\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\7860c7b43f560f69a47216e1125e70c2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.USE_EXACT_ALARM
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:10:22-62
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:11:22-73
+application
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:13:5-52:19
+INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:13:5-52:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6138f6684c02a04f0fee6c636bd84a3c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6138f6684c02a04f0fee6c636bd84a3c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\206852b9eec49d39118246a0e59c7194\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\206852b9eec49d39118246a0e59c7194\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\32c7900fa951af0736d7396c9e555e96\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\32c7900fa951af0736d7396c9e555e96\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\fe77be199d4a6ce141d4a38b1fe59c37\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\fe77be199d4a6ce141d4a38b1fe59c37\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:18:9-49
+	android:icon
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:16:9-44
+	android:allowBackup
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:20:9-48
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:14:9-38
+activity#com.nodocivico.app.ui.MainActivity
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:25:13-55
+	android:exported
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:23:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:28:27-74
+receiver#com.nodocivico.app.receivers.ConnectivityReceiver
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:32:9-38:20
+	android:exported
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:33:13-59
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:35:13-37:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:36:17-79
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:36:25-76
+receiver#com.nodocivico.app.receivers.ReminderReceiver
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:41:13-55
+receiver#com.nodocivico.app.receivers.BootReceiver
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:45:13-51
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:47:13-49:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:48:17-79
+	android:name
+		ADDED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml:48:25-76
+uses-sdk
+INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ad302f6a26cfbf8f3a8a7ce00f0a81f2\transformed\viewbinding-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ad302f6a26cfbf8f3a8a7ce00f0a81f2\transformed\viewbinding-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f087a880f8d4286dd96084e69d23ad97\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f087a880f8d4286dd96084e69d23ad97\transformed\navigation-common-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\0156675b359dc24d56217fb91d61b13c\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\0156675b359dc24d56217fb91d61b13c\transformed\navigation-common-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6e4c925063ac405bf710bfe9bf68f831\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6e4c925063ac405bf710bfe9bf68f831\transformed\navigation-runtime-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\dc25754c2cd37465d79bcee40131e3ac\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\dc25754c2cd37465d79bcee40131e3ac\transformed\navigation-runtime-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cb82de2f5243ded992f24bb07c3b1591\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cb82de2f5243ded992f24bb07c3b1591\transformed\navigation-fragment-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3ecf687ed6a9aa66d76df5625c41cbce\transformed\navigation-fragment-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3ecf687ed6a9aa66d76df5625c41cbce\transformed\navigation-fragment-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3066817ce7cd0ddcec2cf6696bf26566\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3066817ce7cd0ddcec2cf6696bf26566\transformed\navigation-ui-ktx-2.7.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\963cb18ea04240e6cd185837f4e44f4a\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\963cb18ea04240e6cd185837f4e44f4a\transformed\navigation-ui-2.7.7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6138f6684c02a04f0fee6c636bd84a3c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6138f6684c02a04f0fee6c636bd84a3c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\206852b9eec49d39118246a0e59c7194\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\206852b9eec49d39118246a0e59c7194\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\81983f6098248e70603103475c6543c0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\81983f6098248e70603103475c6543c0\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\73ea7fef0f21efee6126d5b4c164054c\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\73ea7fef0f21efee6126d5b4c164054c\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\aa0b33aa687c9e2b61970975958c1fbd\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\aa0b33aa687c9e2b61970975958c1fbd\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\58f095af501dfd0a7bcfb5c3f0b52057\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\58f095af501dfd0a7bcfb5c3f0b52057\transformed\recyclerview-1.3.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d0caf409220fc00d91c84b3684b726af\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d0caf409220fc00d91c84b3684b726af\transformed\viewpager2-1.1.0-beta02\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\52fb88242d2c56d49371160a02c17f2a\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\52fb88242d2c56d49371160a02c17f2a\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\036284d3a0b75c862575c8fb093f8b23\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\036284d3a0b75c862575c8fb093f8b23\transformed\fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bd341431421be92c8e1ff7a342339ee8\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bd341431421be92c8e1ff7a342339ee8\transformed\activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\451504286cee4cb6f11c2fd214d8cf50\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\451504286cee4cb6f11c2fd214d8cf50\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ffc11575f4f581aa231044df10b639c7\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ffc11575f4f581aa231044df10b639c7\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3a9408c4c15dc3b93f257c1ab486109a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3a9408c4c15dc3b93f257c1ab486109a\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cc8789824292a670f8a4e1fcbd34a9b0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cc8789824292a670f8a4e1fcbd34a9b0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\99ac018b277aadf906450b7fc4bf0116\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\99ac018b277aadf906450b7fc4bf0116\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2c0af0f74d730627ae8b22b7abd4838f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2c0af0f74d730627ae8b22b7abd4838f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\e76f6b22b6e74018e5da0b6b64b4729a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\e76f6b22b6e74018e5da0b6b64b4729a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d78b1d62f26007d4ff769415e63e695e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d78b1d62f26007d4ff769415e63e695e\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6a5ea87efd4a8f2f142943cb0fd38c2d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6a5ea87efd4a8f2f142943cb0fd38c2d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3204da1b3037c49e060211a01f9be43b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3204da1b3037c49e060211a01f9be43b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\1e9a4f81a1a232c1cf9363d4bf86e987\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\1e9a4f81a1a232c1cf9363d4bf86e987\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6643853fa794723fb5dcc9849c1e9e0a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6643853fa794723fb5dcc9849c1e9e0a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5c292612888dfe77deea3abf3e7a191c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5c292612888dfe77deea3abf3e7a191c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f91f8b53de6d71759c98824e1e5c6027\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f91f8b53de6d71759c98824e1e5c6027\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6581976094e05f1854095bca7849df81\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6581976094e05f1854095bca7849df81\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d808120f08a748569b5f037cbb814714\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\d808120f08a748569b5f037cbb814714\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f025b8ac6f8eaa9e13292dc5b2e1040d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f025b8ac6f8eaa9e13292dc5b2e1040d\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cd007e1ae3669ffa0199e06100f0ad90\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\cd007e1ae3669ffa0199e06100f0ad90\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\c08bdf8c7e842d121b5461f898fc0684\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\c08bdf8c7e842d121b5461f898fc0684\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\e624644f7dd69ab6716918da0ed22c19\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\e624644f7dd69ab6716918da0ed22c19\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\92650c1178659ed4c72d92c387460d79\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\92650c1178659ed4c72d92c387460d79\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ec68271104b69fbf5cbad475260b0151\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ec68271104b69fbf5cbad475260b0151\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\aac750bff44d3e598c23f7beddae701a\transformed\lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\aac750bff44d3e598c23f7beddae701a\transformed\lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\9a786c1778c44da9b2a8b6de59d577c7\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\9a786c1778c44da9b2a8b6de59d577c7\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3bfcd8d64fc9efe835374728c4952246\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\3bfcd8d64fc9efe835374728c4952246\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f04fb21446428a59cf5f3293a9eebdba\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f04fb21446428a59cf5f3293a9eebdba\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5a7f71e47ae8d44c5f11f8c54e01a851\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5a7f71e47ae8d44c5f11f8c54e01a851\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\1c89210ac8853cb0edb7880c4ea7349a\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\1c89210ac8853cb0edb7880c4ea7349a\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f459325e84a79472b34a2fafb8cf3a63\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\f459325e84a79472b34a2fafb8cf3a63\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5884bad8c78f6a31d040c83ede8e8fe3\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\5884bad8c78f6a31d040c83ede8e8fe3\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\0dfb0e044e3746833eb42fb8f1e773c6\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\0dfb0e044e3746833eb42fb8f1e773c6\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\217eedbd331e12fecfc8188dce8a6083\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\217eedbd331e12fecfc8188dce8a6083\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bb702bca058a6711d3712daaac69a135\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bb702bca058a6711d3712daaac69a135\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\92b6e5ecadd3ead02507eef33e7b399c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\92b6e5ecadd3ead02507eef33e7b399c\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2bf42b562ea0f20158515a22b57011b9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2bf42b562ea0f20158515a22b57011b9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2caf3da66237a20edf0c9868ff3b75d9\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\2caf3da66237a20edf0c9868ff3b75d9\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ce8b4aae6e4355a02157285cc280224f\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\ce8b4aae6e4355a02157285cc280224f\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\83282183dcdc6a2320efdc8d17323e4e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\83282183dcdc6a2320efdc8d17323e4e\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\32c7900fa951af0736d7396c9e555e96\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\32c7900fa951af0736d7396c9e555e96\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\03c67d1a78bed9daa46cc220c7e893ad\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\03c67d1a78bed9daa46cc220c7e893ad\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\c25cb0bf565c83f949ec66b4acd41e07\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\c25cb0bf565c83f949ec66b4acd41e07\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\fe77be199d4a6ce141d4a38b1fe59c37\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\fe77be199d4a6ce141d4a38b1fe59c37\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\18370bd0730e7f19baf9ab75e37ac30f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\18370bd0730e7f19baf9ab75e37ac30f\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bf3ff6429c0930e7149c33584c4b4d81\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bf3ff6429c0930e7149c33584c4b4d81\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\7860c7b43f560f69a47216e1125e70c2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\7860c7b43f560f69a47216e1125e70c2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Tanner Miranda\Downloads\NodoCivico\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\32c7900fa951af0736d7396c9e555e96\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\32c7900fa951af0736d7396c9e555e96\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a08210554b39b9813d6d38d24a3bc6bf\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\a119d12378339c69c4588f0914627bc1\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.nodocivico.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.nodocivico.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\8e2d5eb4ae72de6ab6d70405bd1f13d1\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\282b4708162eaa2a81d777b78b5d34d4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\bdd3e47f3ace3c002c70e3f3f57cf804\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tanner Miranda\.gradle\caches\transforms-3\6b116149e3d2dc116860d9e1eb1d015d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

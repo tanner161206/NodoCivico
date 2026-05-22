@@ -1,150 +1,162 @@
 [
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_item_report.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/item_report.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_calendar.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_email.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_email.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_person.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_person.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_calendar_reminders.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_calendar_reminders.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_home.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_home.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_register.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_edit.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_edit.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_create_report.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_create_report.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_location.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_location.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_sync.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_sync.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_shape_dot_green.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/shape_dot_green.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_item_reminder.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\item_reminder.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_activity_main.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_edit.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_edit.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_settings.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_settings.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_lock.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_calendar_reminders.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_calendar_reminders.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_list.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_list.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_map_zone.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_map_zone.xml"
-    },
-    {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_report_list.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_report_list.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_location.xml"
     },
     {
         "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_home.xml.flat",
         "source": "com.nodocivico.app-main-59:/layout/fragment_home.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_login.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_login.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_email.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_email.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_map_pin.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_map_pin.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_inbox.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_inbox.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_person.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_edit_report.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_edit_report.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_logout.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_logout.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_register.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_register.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_splash.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_splash.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_notification.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_notification.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_settings.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_create_report.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_create_report.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_item_follow_up.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\item_follow_up.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_settings.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_settings.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_splash.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_splash.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_delete.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_delete.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_bg_spinner.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\bg_spinner.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_lock.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_lock.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_notification.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_sync_status.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_sync_status.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_profile.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_profile.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_report_list.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_report_list.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_calendar.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_calendar.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_map_zone.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_map_zone.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_sync.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_sync.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_logout.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_bg_spinner.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/bg_spinner.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_shape_dot_red.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\shape_dot_red.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_shape_dot_red.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/shape_dot_red.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_bg_chip_gray.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\bg_chip_gray.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_bg_chip_gray.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/bg_chip_gray.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_item_report.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\item_report.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_list.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_list.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_map_pin.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_map_pin.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/navigation_nav_graph.xml.flat",
-        "source": "com.nodocivico.app-main-59:/navigation/nav_graph.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_edit_report.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_edit_report.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/drawable_ic_add.xml.flat",
-        "source": "com.nodocivico.app-main-59:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/layout_fragment_report_detail.xml.flat",
-        "source": "com.nodocivico.app-main-59:/layout/fragment_report_detail.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_sync_status.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_sync_status.xml"
     },
     {
-        "merged": "com.nodocivico.app-merged_res-57:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.nodocivico.app-main-59:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_shape_dot_green.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\shape_dot_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\drawable_ic_inbox.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\drawable\\ic_inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-merged_res-57:\\layout_fragment_report_detail.xml.flat",
+        "source": "C:\\Users\\Tanner Miranda\\.gradle\\daemon\\8.4\\com.nodocivico.app-main-59:\\layout\\fragment_report_detail.xml"
     }
 ]

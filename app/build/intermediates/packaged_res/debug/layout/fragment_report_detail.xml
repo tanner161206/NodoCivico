@@ -6,15 +6,12 @@
     android:layout_height="match_parent"
     android:background="@color/background">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
 
+        <!-- Info del reporte -->
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
             app:cardCornerRadius="20dp" app:cardElevation="3dp" app:strokeWidth="0dp">
             <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
                 android:orientation="vertical" android:padding="20dp">
@@ -78,6 +75,7 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
+        <!-- Botones de acción -->
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
             android:layout_marginTop="12dp" android:orientation="horizontal">
             <com.google.android.material.button.MaterialButton android:id="@+id/btnEdit"
@@ -111,7 +109,8 @@
                 <TextView android:id="@+id/tvNoFollowUps"
                     android:layout_width="wrap_content" android:layout_height="wrap_content"
                     android:text="Sin seguimientos aún" android:textColor="@color/text_secondary"
-                    android:textSize="13sp" android:layout_marginBottom="10dp" />
+                    android:textSize="13sp" android:layout_marginBottom="10dp"
+                    android:visibility="visible" />
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tilFollowUp"
@@ -131,6 +130,5 @@
                     android:text="Agregar seguimiento" app:cornerRadius="12dp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
-
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
