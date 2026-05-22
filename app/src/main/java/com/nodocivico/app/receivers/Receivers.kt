@@ -18,6 +18,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
+// ─── ConnectivityReceiver ─────────────────────────────────────────────────────
 class ConnectivityReceiver : BroadcastReceiver() {
     companion object {
         const val ACTION_CONNECTIVITY_CHANGED = "com.nodocivico.CONNECTIVITY_CHANGED"
@@ -32,6 +33,7 @@ class ConnectivityReceiver : BroadcastReceiver() {
     }
 }
 
+// ─── ReminderReceiver ─────────────────────────────────────────────────────────
 class ReminderReceiver : BroadcastReceiver() {
     companion object {
         const val CHANNEL_ID      = "nodo_civico_reminders"
@@ -41,15 +43,20 @@ class ReminderReceiver : BroadcastReceiver() {
         const val EXTRA_REPORT_ID = "report_id"
         const val EXTRA_NOTIF_ID  = "notification_id"
     }
+
     override fun onReceive(context: Context, intent: Intent) {
         val title    = intent.getStringExtra(EXTRA_TITLE)   ?: "Recordatorio"
         val message  = intent.getStringExtra(EXTRA_MESSAGE) ?: "Seguimiento pendiente"
         val reportId = intent.getLongExtra(EXTRA_REPORT_ID, -1L)
         val notifId  = intent.getIntExtra(EXTRA_NOTIF_ID, reportId.toInt())
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val ch = NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT)
-            (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).createNotificationChannel(ch)
+                .apply { description = "Alertas de seguimiento para reportes ciudadanos" }
+            (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager)
+                .createNotificationChannel(ch)
         }
+
         val tap = PendingIntent.getActivity(
             context, notifId,
             Intent(context, MainActivity::class.java).apply {
@@ -58,15 +65,19 @@ class ReminderReceiver : BroadcastReceiver() {
             },
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
+
         val notif = NotificationCompat.Builder(context, CHANNEL_ID)
             .setSmallIcon(R.drawable.ic_notification)
             .setContentTitle(title).setContentText(message)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setContentIntent(tap).setAutoCancel(true).build()
-        (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager).notify(notifId, notif)
+
+        (context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager)
+            .notify(notifId, notif)
     }
 }
 
+// ─── BootReceiver ─────────────────────────────────────────────────────────────
 class BootReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {
         if (intent.action != Intent.ACTION_BOOT_COMPLETED) return
@@ -74,8 +85,9 @@ class BootReceiver : BroadcastReceiver() {
         CoroutineScope(Dispatchers.IO).launch {
             try {
                 val app = context.applicationContext as NodoCivicoApp
-                val reminders = app.reminderRepository.getUpcomingReminders()
+                val reminders = app.reminderRepository.getUpcoming()
                 NotificationScheduler.rescheduleAll(context, reminders)
+                android.util.Log.d("BootReceiver", "Reprogramadas ${reminders.size} alarmas")
             } finally {
                 pending.finish()
             }
