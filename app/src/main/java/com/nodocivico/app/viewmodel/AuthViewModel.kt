@@ -24,13 +24,12 @@ class AuthViewModel(
     val registerState: LiveData<UiState<User>> = _registerState
 
     fun login(email: String, password: String) {
-        // Validaciones locales
         if (email.isBlank() || !email.isValidEmail()) {
             _loginState.value = UiState.Error("Email inválido")
             return
         }
-        if (password.length < 4) {
-            _loginState.value = UiState.Error("La contraseña es muy corta")
+        if (password.isBlank()) {
+            _loginState.value = UiState.Error("La contraseña no puede estar vacía")
             return
         }
 
@@ -63,8 +62,8 @@ class AuthViewModel(
             _registerState.value = UiState.Error("Email inválido")
             return
         }
-        if (password.length < 6) {
-            _registerState.value = UiState.Error("La contraseña debe tener al menos 6 caracteres")
+        if (password.isBlank()) {
+            _registerState.value = UiState.Error("La contraseña no puede estar vacía")
             return
         }
 

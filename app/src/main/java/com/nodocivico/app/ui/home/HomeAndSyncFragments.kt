@@ -15,15 +15,22 @@ import com.nodocivico.app.NodoCivicoApp
 import com.nodocivico.app.R
 import com.nodocivico.app.adapters.ReportAdapter
 import com.nodocivico.app.databinding.FragmentHomeBinding
+import com.nodocivico.app.databinding.FragmentMapZoneBinding
+import com.nodocivico.app.databinding.FragmentSyncStatusBinding
+import com.nodocivico.app.domain.model.UiState
 import com.nodocivico.app.receivers.ConnectivityReceiver
 import com.nodocivico.app.utils.NetworkUtils
 import com.nodocivico.app.utils.gone
+import com.nodocivico.app.utils.showSnackbarError
+import com.nodocivico.app.utils.showSnackbarSuccess
 import com.nodocivico.app.utils.visible
 import com.nodocivico.app.viewmodel.HomeViewModel
+import com.nodocivico.app.viewmodel.ReportViewModel
 import com.nodocivico.app.viewmodel.ViewModelFactory
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
+// ─── HomeFragment ─────────────────────────────────────────────────────────────
 class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
@@ -139,13 +146,13 @@ class HomeFragment : Fragment() {
     }
 }
 
-// ─── SyncStatusFragment completo ─────────────────────────────────────────────
+// ─── SyncStatusFragment ───────────────────────────────────────────────────────
 class SyncStatusFragment : Fragment() {
 
-    private var _binding: com.nodocivico.app.databinding.FragmentSyncStatusBinding? = null
+    private var _binding: FragmentSyncStatusBinding? = null
     private val binding get() = _binding!!
 
-    private val viewModel: com.nodocivico.app.viewmodel.ReportViewModel by viewModels {
+    private val viewModel: ReportViewModel by viewModels {
         val app = requireActivity().application as NodoCivicoApp
         ViewModelFactory(reportRepository = app.reportRepository)
     }
@@ -156,7 +163,7 @@ class SyncStatusFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
-        _binding = com.nodocivico.app.databinding.FragmentSyncStatusBinding.inflate(inflater, container, false)
+        _binding = FragmentSyncStatusBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -169,7 +176,6 @@ class SyncStatusFragment : Fragment() {
             requireActivity().runOnUiThread {
                 isOnline = connected
                 updateConnectivity(connected)
-                // Auto-sync al recuperar conexión
                 if (connected) triggerAutoSync()
             }
         }
@@ -186,19 +192,19 @@ class SyncStatusFragment : Fragment() {
 
         viewModel.syncState.observe(viewLifecycleOwner) { state ->
             when (state) {
-                is com.nodocivico.app.domain.model.UiState.Loading -> {
+                is UiState.Loading -> {
                     binding.progressBar.visible()
                     binding.btnSync.isEnabled = false
                 }
-                is com.nodocivico.app.domain.model.UiState.Success<*> -> {
+                is UiState.Success<*> -> {
                     binding.progressBar.gone()
                     val count = (state.data as? Int) ?: 0
-                    com.nodocivico.app.utils.showSnackbarSuccess(binding.root, "$count reportes sincronizados ✓")
+                    binding.root.showSnackbarSuccess("$count reportes sincronizados ✓")
                 }
-                is com.nodocivico.app.domain.model.UiState.Error -> {
+                is UiState.Error -> {
                     binding.progressBar.gone()
                     binding.btnSync.isEnabled = true
-                    com.nodocivico.app.utils.showSnackbarError(binding.root, state.message)
+                    binding.root.showSnackbarError(state.message)
                 }
                 else -> binding.progressBar.gone()
             }
@@ -208,7 +214,7 @@ class SyncStatusFragment : Fragment() {
     private fun setupClickListeners() {
         binding.btnSync.setOnClickListener {
             if (!isOnline) {
-                com.nodocivico.app.utils.showSnackbarError(binding.root, getString(R.string.error_no_connection))
+                binding.root.showSnackbarError(getString(R.string.error_no_connection))
                 return@setOnClickListener
             }
             triggerSync()
@@ -261,16 +267,16 @@ class SyncStatusFragment : Fragment() {
     }
 }
 
-// ─── MapZoneFragment completo ─────────────────────────────────────────────────
+// ─── MapZoneFragment ──────────────────────────────────────────────────────────
 class MapZoneFragment : Fragment() {
 
-    private var _binding: com.nodocivico.app.databinding.FragmentMapZoneBinding? = null
+    private var _binding: FragmentMapZoneBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
-        _binding = com.nodocivico.app.databinding.FragmentMapZoneBinding.inflate(inflater, container, false)
+        _binding = FragmentMapZoneBinding.inflate(inflater, container, false)
         return binding.root
     }
 

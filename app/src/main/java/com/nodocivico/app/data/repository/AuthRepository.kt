@@ -22,26 +22,26 @@ class AuthRepository(
                 if (response.isSuccessful) {
                     val body = response.body()!!
                     val user = User(
-                        id = body.userId,
-                        name = body.name,
+                        id    = body.userId,
+                        name  = body.name,
                         email = body.email,
-                        zone = body.zone,
-                        role = body.role,
+                        zone  = body.zone,
+                        role  = body.role,
                         token = body.token
                     )
                     userDao.deleteAll()
                     userDao.insertUser(UserEntity.fromDomain(user))
                     Result.Success(user)
                 } else {
-                    Result.Error(Exception("Credenciales inválidas"), "Email o contraseña incorrectos")
+                    Result.Error(Exception("Error ${response.code()}"), "Email o contraseña incorrectos")
                 }
             } catch (e: Exception) {
-                // Fallback offline: buscar usuario guardado localmente
+                // Fallback offline
                 val localUser = userDao.getCurrentUser()
                 if (localUser != null) {
                     Result.Success(localUser.toDomain())
                 } else {
-                    Result.Error(e, "Sin conexión y sin sesión guardada")
+                    Result.Error(e, "No se pudo conectar al servidor: ${e.message}")
                 }
             }
         }
@@ -53,21 +53,21 @@ class AuthRepository(
                 if (response.isSuccessful) {
                     val body = response.body()!!
                     val user = User(
-                        id = body.userId,
-                        name = body.name,
+                        id    = body.userId,
+                        name  = body.name,
                         email = body.email,
-                        zone = body.zone,
-                        role = body.role,
+                        zone  = body.zone,
+                        role  = body.role,
                         token = body.token
                     )
                     userDao.deleteAll()
                     userDao.insertUser(UserEntity.fromDomain(user))
                     Result.Success(user)
                 } else {
-                    Result.Error(Exception("Error en registro"), "No se pudo crear la cuenta")
+                    Result.Error(Exception("Error ${response.code()}"), "No se pudo crear la cuenta")
                 }
             } catch (e: Exception) {
-                Result.Error(e, "Sin conexión. Intenta más tarde.")
+                Result.Error(e, "No se pudo conectar al servidor: ${e.message}")
             }
         }
 
