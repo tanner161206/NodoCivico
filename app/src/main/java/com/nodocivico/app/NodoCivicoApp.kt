@@ -4,6 +4,7 @@ import android.app.Application
 import com.nodocivico.app.data.local.NodoCivicoDatabase
 import com.nodocivico.app.data.remote.RetrofitClient
 import com.nodocivico.app.data.repository.*
+import com.nodocivico.app.sync.SyncWorker
 import com.nodocivico.app.utils.UserPreferences
 
 class NodoCivicoApp : Application() {
@@ -25,5 +26,10 @@ class NodoCivicoApp : Application() {
     }
     val followUpRepository: FollowUpRepository by lazy {
         FollowUpRepository(database.followUpDao())
+    }
+
+    override fun onCreate() {
+        super.onCreate()
+        SyncWorker.schedulePeriodic(this)
     }
 }
